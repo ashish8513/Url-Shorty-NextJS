@@ -8,7 +8,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-slate-100 px-5 py-4 shadow-md">
+    <nav className="bg-slate-100 px-5 py-4 shadow-md rounded-2xl">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="text-black font-bold text-lg">MyBrand</div>
